@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter site name-->
+    <EditText
+        android:id="@+id/idEdtSiteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"
+        android:layout_margin="10dp" />
+
+    <!--edit text to enter username-->
+    <EditText
+        android:id="@+id/idEdtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="10dp" />
+
+    <!--edit text for password-->
+    <EditText
+        android:id="@+id/idEdtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="10dp" />
+
+
+    <!--button for adding new login-->
+    <Button
+        android:id="@+id/idBtnAddLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Login"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
